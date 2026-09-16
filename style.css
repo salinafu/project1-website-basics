@@ -11,6 +11,39 @@ html {
   background-color: #FFFFFF;
 }
 
+header {
+  display: flex;
+  justify-content: space-between; /* site title left, nav right */
+  align-items: center;           /* vertical centering */
+  padding: 1rem;
+}
+
+/* Styles the site title at the top of the header */
+.site-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;   /* remove bullets */
+  margin: 0;
+  padding: 0;
+  display: flex;      /* horizontal layout for links */
+  gap: 1rem;          /* space between items */
+}
+
+nav a {
+  text-decoration: none;
+  color: 
+#333;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: 
+#0066cc; /* hover color */
+}
+
 body {
   margin: 16px;
 }
